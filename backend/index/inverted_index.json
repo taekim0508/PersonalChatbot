@@ -1,0 +1,1527 @@
+{
+  "section": [
+    "chunk_000",
+    "chunk_001",
+    "chunk_002",
+    "chunk_003",
+    "chunk_004",
+    "chunk_005",
+    "chunk_006",
+    "chunk_007",
+    "chunk_008",
+    "chunk_009",
+    "chunk_010",
+    "chunk_011",
+    "chunk_012",
+    "chunk_013",
+    "chunk_014",
+    "chunk_015",
+    "chunk_016",
+    "chunk_017",
+    "chunk_018",
+    "chunk_019",
+    "chunk_020",
+    "chunk_021",
+    "chunk_022",
+    "chunk_023"
+  ],
+  "unknown": [
+    "chunk_000",
+    "chunk_001"
+  ],
+  "entity": [
+    "chunk_000",
+    "chunk_001",
+    "chunk_002",
+    "chunk_003",
+    "chunk_004",
+    "chunk_005",
+    "chunk_006",
+    "chunk_007",
+    "chunk_008",
+    "chunk_009",
+    "chunk_010",
+    "chunk_011",
+    "chunk_012",
+    "chunk_013",
+    "chunk_014",
+    "chunk_015",
+    "chunk_016",
+    "chunk_017",
+    "chunk_018",
+    "chunk_019",
+    "chunk_020",
+    "chunk_021",
+    "chunk_022",
+    "chunk_023"
+  ],
+  "tae": [
+    "chunk_000"
+  ],
+  "kim": [
+    "chunk_000"
+  ],
+  "taekim0508": [
+    "chunk_001"
+  ],
+  "gmail.com": [
+    "chunk_001"
+  ],
+  "linkedin.com": [
+    "chunk_001"
+  ],
+  "in": [
+    "chunk_001",
+    "chunk_003"
+  ],
+  "kimtae03": [
+    "chunk_001"
+  ],
+  "https": [
+    "chunk_001"
+  ],
+  "github.com": [
+    "chunk_001"
+  ],
+  "education": [
+    "chunk_002",
+    "chunk_003",
+    "chunk_004",
+    "chunk_005",
+    "chunk_010"
+  ],
+  "vanderbilt": [
+    "chunk_002"
+  ],
+  "university": [
+    "chunk_002",
+    "chunk_007",
+    "chunk_008",
+    "chunk_014"
+  ],
+  "nashville": [
+    "chunk_002",
+    "chunk_011",
+    "chunk_012",
+    "chunk_013"
+  ],
+  "tn": [
+    "chunk_002",
+    "chunk_011",
+    "chunk_013"
+  ],
+  "b.s.": [
+    "chunk_003"
+  ],
+  "computer": [
+    "chunk_003",
+    "chunk_004"
+  ],
+  "science": [
+    "chunk_003",
+    "chunk_004"
+  ],
+  "economics": [
+    "chunk_003",
+    "chunk_004"
+  ],
+  "aug.": [
+    "chunk_003"
+  ],
+  "2022": [
+    "chunk_003"
+  ],
+  "may": [
+    "chunk_003"
+  ],
+  "2026": [
+    "chunk_003"
+  ],
+  "degree": [
+    "chunk_003"
+  ],
+  "dean": [
+    "chunk_004"
+  ],
+  "list": [
+    "chunk_004"
+  ],
+  "relevant": [
+    "chunk_004"
+  ],
+  "coursework": [
+    "chunk_004"
+  ],
+  "algorithms": [
+    "chunk_004"
+  ],
+  "principles": [
+    "chunk_004"
+  ],
+  "of": [
+    "chunk_004",
+    "chunk_007",
+    "chunk_010",
+    "chunk_012",
+    "chunk_015"
+  ],
+  "software": [
+    "chunk_004"
+  ],
+  "engineering": [
+    "chunk_004",
+    "chunk_018"
+  ],
+  "operating": [
+    "chunk_004"
+  ],
+  "systems": [
+    "chunk_004",
+    "chunk_009",
+    "chunk_010"
+  ],
+  "database": [
+    "chunk_004"
+  ],
+  "management": [
+    "chunk_004"
+  ],
+  "intermediate": [
+    "chunk_004"
+  ],
+  "system": [
+    "chunk_004"
+  ],
+  "design": [
+    "chunk_004",
+    "chunk_007"
+  ],
+  "applied": [
+    "chunk_004"
+  ],
+  "econometrics": [
+    "chunk_004"
+  ],
+  "microeconomics": [
+    "chunk_004"
+  ],
+  "macroeconomics": [
+    "chunk_004"
+  ],
+  "international": [
+    "chunk_004",
+    "chunk_005"
+  ],
+  "trade": [
+    "chunk_005"
+  ],
+  "wages": [
+    "chunk_005"
+  ],
+  "employment": [
+    "chunk_005"
+  ],
+  "and": [
+    "chunk_005",
+    "chunk_007",
+    "chunk_008",
+    "chunk_009",
+    "chunk_010",
+    "chunk_012",
+    "chunk_013",
+    "chunk_014",
+    "chunk_015",
+    "chunk_016",
+    "chunk_017",
+    "chunk_018",
+    "chunk_019",
+    "chunk_020"
+  ],
+  "labor": [
+    "chunk_005"
+  ],
+  "markets.": [
+    "chunk_005"
+  ],
+  "professional": [
+    "chunk_006",
+    "chunk_007",
+    "chunk_008",
+    "chunk_009",
+    "chunk_010",
+    "chunk_011",
+    "chunk_012",
+    "chunk_013",
+    "chunk_014",
+    "chunk_015",
+    "chunk_016",
+    "chunk_017"
+  ],
+  "experience": [
+    "chunk_006",
+    "chunk_007",
+    "chunk_008",
+    "chunk_009",
+    "chunk_010",
+    "chunk_011",
+    "chunk_012",
+    "chunk_013",
+    "chunk_014",
+    "chunk_015",
+    "chunk_016",
+    "chunk_017"
+  ],
+  "leadership": [
+    "chunk_006",
+    "chunk_007",
+    "chunk_008",
+    "chunk_009",
+    "chunk_010",
+    "chunk_011",
+    "chunk_012",
+    "chunk_013",
+    "chunk_014",
+    "chunk_015"
+  ],
+  "livearena": [
+    "chunk_006"
+  ],
+  "technologies": [
+    "chunk_006"
+  ],
+  "bellevue": [
+    "chunk_006"
+  ],
+  "wa": [
+    "chunk_006"
+  ],
+  "program": [
+    "chunk_007",
+    "chunk_008",
+    "chunk_009",
+    "chunk_010"
+  ],
+  "manager": [
+    "chunk_007",
+    "chunk_008",
+    "chunk_009",
+    "chunk_010"
+  ],
+  "developer": [
+    "chunk_007",
+    "chunk_008",
+    "chunk_009",
+    "chunk_010"
+  ],
+  "intern": [
+    "chunk_007",
+    "chunk_008",
+    "chunk_009",
+    "chunk_010"
+  ],
+  "jul.": [
+    "chunk_007",
+    "chunk_008",
+    "chunk_009",
+    "chunk_010",
+    "chunk_016"
+  ],
+  "2025": [
+    "chunk_007",
+    "chunk_008",
+    "chunk_009",
+    "chunk_010",
+    "chunk_016",
+    "chunk_019"
+  ],
+  "sep.": [
+    "chunk_007",
+    "chunk_016",
+    "chunk_019"
+  ],
+  "drove": [
+    "chunk_007"
+  ],
+  "end": [
+    "chunk_007"
+  ],
+  "to": [
+    "chunk_007",
+    "chunk_008",
+    "chunk_009",
+    "chunk_010",
+    "chunk_012",
+    "chunk_014",
+    "chunk_015",
+    "chunk_017",
+    "chunk_018",
+    "chunk_020"
+  ],
+  "delivery": [
+    "chunk_007"
+  ],
+  "gen": [
+    "chunk_007"
+  ],
+  "ai": [
+    "chunk_007",
+    "chunk_008",
+    "chunk_009",
+    "chunk_010",
+    "chunk_012",
+    "chunk_016"
+  ],
+  "engagement": [
+    "chunk_007",
+    "chunk_012"
+  ],
+  "initiative": [
+    "chunk_007"
+  ],
+  "conducting": [
+    "chunk_007"
+  ],
+  "foundational": [
+    "chunk_007"
+  ],
+  "research": [
+    "chunk_007",
+    "chunk_008"
+  ],
+  "aligning": [
+    "chunk_007"
+  ],
+  "stakeholders": [
+    "chunk_007"
+  ],
+  "developing": [
+    "chunk_007",
+    "chunk_008"
+  ],
+  "based": [
+    "chunk_007",
+    "chunk_008",
+    "chunk_019"
+  ],
+  "pilot": [
+    "chunk_007",
+    "chunk_008"
+  ],
+  "aimed": [
+    "chunk_007",
+    "chunk_008"
+  ],
+  "scale": [
+    "chunk_007",
+    "chunk_008",
+    "chunk_009"
+  ],
+  "100": [
+    "chunk_007",
+    "chunk_008",
+    "chunk_017",
+    "chunk_018"
+  ],
+  "000+": [
+    "chunk_007",
+    "chunk_008",
+    "chunk_020"
+  ],
+  "students": [
+    "chunk_007",
+    "chunk_008"
+  ],
+  "globally": [
+    "chunk_007",
+    "chunk_008"
+  ],
+  "within": [
+    "chunk_007",
+    "chunk_008"
+  ],
+  "five": [
+    "chunk_007",
+    "chunk_008"
+  ],
+  "years.": [
+    "chunk_007",
+    "chunk_008"
+  ],
+  "executed": [
+    "chunk_008"
+  ],
+  "key": [
+    "chunk_008"
+  ],
+  "components": [
+    "chunk_008"
+  ],
+  "including": [
+    "chunk_008",
+    "chunk_012",
+    "chunk_018"
+  ],
+  "an": [
+    "chunk_008",
+    "chunk_009",
+    "chunk_016"
+  ],
+  "brief": [
+    "chunk_008"
+  ],
+  "competitor": [
+    "chunk_008"
+  ],
+  "analysis": [
+    "chunk_008",
+    "chunk_015"
+  ],
+  "while": [
+    "chunk_008"
+  ],
+  "analyzing": [
+    "chunk_008"
+  ],
+  "constructing": [
+    "chunk_008",
+    "chunk_009"
+  ],
+  "frameworks": [
+    "chunk_008",
+    "chunk_009",
+    "chunk_022"
+  ],
+  "for": [
+    "chunk_008",
+    "chunk_009",
+    "chunk_019"
+  ],
+  "adaptive": [
+    "chunk_008",
+    "chunk_009",
+    "chunk_010"
+  ],
+  "learning": [
+    "chunk_008",
+    "chunk_009"
+  ],
+  "personalization": [
+    "chunk_008",
+    "chunk_009"
+  ],
+  "large": [
+    "chunk_008",
+    "chunk_009"
+  ],
+  "student": [
+    "chunk_008",
+    "chunk_009",
+    "chunk_010",
+    "chunk_012"
+  ],
+  "engagement.": [
+    "chunk_008",
+    "chunk_009"
+  ],
+  "collaborated": [
+    "chunk_009"
+  ],
+  "with": [
+    "chunk_009",
+    "chunk_012",
+    "chunk_013",
+    "chunk_016",
+    "chunk_017",
+    "chunk_018",
+    "chunk_019",
+    "chunk_020"
+  ],
+  "internal": [
+    "chunk_009",
+    "chunk_010"
+  ],
+  "teams": [
+    "chunk_009"
+  ],
+  "prototype": [
+    "chunk_009"
+  ],
+  "mentorship": [
+    "chunk_009"
+  ],
+  "platform": [
+    "chunk_009"
+  ],
+  "that": [
+    "chunk_009",
+    "chunk_010",
+    "chunk_012",
+    "chunk_016"
+  ],
+  "uses": [
+    "chunk_009"
+  ],
+  "llms": [
+    "chunk_009"
+  ],
+  "learner": [
+    "chunk_009"
+  ],
+  "modeling": [
+    "chunk_009"
+  ],
+  "prompt": [
+    "chunk_009",
+    "chunk_010",
+    "chunk_018"
+  ],
+  "evaluation": [
+    "chunk_009",
+    "chunk_010"
+  ],
+  "pipelines": [
+    "chunk_009",
+    "chunk_010"
+  ],
+  "build": [
+    "chunk_009",
+    "chunk_010"
+  ],
+  "learn": [
+    "chunk_009",
+    "chunk_010"
+  ],
+  "from": [
+    "chunk_009",
+    "chunk_010",
+    "chunk_014"
+  ],
+  "behavior.": [
+    "chunk_009",
+    "chunk_010"
+  ],
+  "llm": [
+    "chunk_009",
+    "chunk_016",
+    "chunk_017"
+  ],
+  "odeling": [
+    "chunk_010"
+  ],
+  "delivered": [
+    "chunk_010"
+  ],
+  "structured": [
+    "chunk_010",
+    "chunk_017",
+    "chunk_018"
+  ],
+  "presentations": [
+    "chunk_010"
+  ],
+  "outlining": [
+    "chunk_010"
+  ],
+  "sprints": [
+    "chunk_010"
+  ],
+  "development": [
+    "chunk_010"
+  ],
+  "planning": [
+    "chunk_010"
+  ],
+  "the": [
+    "chunk_010",
+    "chunk_012"
+  ],
+  "ceo": [
+    "chunk_010"
+  ],
+  "team": [
+    "chunk_010",
+    "chunk_011"
+  ],
+  "influencing": [
+    "chunk_010"
+  ],
+  "decisions": [
+    "chunk_010"
+  ],
+  "on": [
+    "chunk_010",
+    "chunk_012",
+    "chunk_015"
+  ],
+  "resource": [
+    "chunk_010"
+  ],
+  "prioritization": [
+    "chunk_010"
+  ],
+  "long": [
+    "chunk_010",
+    "chunk_012"
+  ],
+  "term": [
+    "chunk_010",
+    "chunk_012"
+  ],
+  "strategy.": [
+    "chunk_010"
+  ],
+  "vandyhacks": [
+    "chunk_011"
+  ],
+  "marketing": [
+    "chunk_011",
+    "chunk_012"
+  ],
+  "committee": [
+    "chunk_012"
+  ],
+  "board": [
+    "chunk_012"
+  ],
+  "member": [
+    "chunk_012"
+  ],
+  "mar.": [
+    "chunk_012",
+    "chunk_014",
+    "chunk_015"
+  ],
+  "2023": [
+    "chunk_012",
+    "chunk_014",
+    "chunk_015"
+  ],
+  "jan.": [
+    "chunk_012"
+  ],
+  "2024": [
+    "chunk_012",
+    "chunk_014"
+  ],
+  "led": [
+    "chunk_012"
+  ],
+  "multi": [
+    "chunk_012"
+  ],
+  "channel": [
+    "chunk_012"
+  ],
+  "promotions": [
+    "chunk_012"
+  ],
+  "instagram": [
+    "chunk_012"
+  ],
+  "tiktok": [
+    "chunk_012"
+  ],
+  "youtube": [
+    "chunk_012"
+  ],
+  "elevating": [
+    "chunk_012"
+  ],
+  "hacker": [
+    "chunk_012"
+  ],
+  "culture": [
+    "chunk_012"
+  ],
+  "50+": [
+    "chunk_012",
+    "chunk_018"
+  ],
+  "posts": [
+    "chunk_012"
+  ],
+  "videos": [
+    "chunk_012"
+  ],
+  "expanded": [
+    "chunk_012"
+  ],
+  "reach": [
+    "chunk_012"
+  ],
+  "supported": [
+    "chunk_012"
+  ],
+  "record": [
+    "chunk_012"
+  ],
+  "attendance.": [
+    "chunk_012"
+  ],
+  "explored": [
+    "chunk_012"
+  ],
+  "applications": [
+    "chunk_012"
+  ],
+  "driven": [
+    "chunk_012"
+  ],
+  "tools": [
+    "chunk_012",
+    "chunk_014",
+    "chunk_015",
+    "chunk_022"
+  ],
+  "generative": [
+    "chunk_012"
+  ],
+  "content": [
+    "chunk_012"
+  ],
+  "predictive": [
+    "chunk_012"
+  ],
+  "analytics": [
+    "chunk_012"
+  ],
+  "personalized": [
+    "chunk_012"
+  ],
+  "recommendations": [
+    "chunk_012"
+  ],
+  "engage": [
+    "chunk_012"
+  ],
+  "greater": [
+    "chunk_012"
+  ],
+  "community": [
+    "chunk_012"
+  ],
+  "enhance": [
+    "chunk_012"
+  ],
+  "retention": [
+    "chunk_012"
+  ],
+  "strengthen": [
+    "chunk_012"
+  ],
+  "participation.": [
+    "chunk_012"
+  ],
+  "data": [
+    "chunk_013",
+    "chunk_015",
+    "chunk_017",
+    "chunk_018"
+  ],
+  "visualization": [
+    "chunk_013"
+  ],
+  "interactive": [
+    "chunk_013",
+    "chunk_016"
+  ],
+  "dashboards": [
+    "chunk_013",
+    "chunk_015"
+  ],
+  "python": [
+    "chunk_013",
+    "chunk_014",
+    "chunk_021"
+  ],
+  "textbook": [
+    "chunk_014",
+    "chunk_015"
+  ],
+  "editor": [
+    "chunk_014",
+    "chunk_015"
+  ],
+  "edited": [
+    "chunk_014"
+  ],
+  "reorganized": [
+    "chunk_014"
+  ],
+  "180+": [
+    "chunk_014"
+  ],
+  "page": [
+    "chunk_014"
+  ],
+  "sponsored": [
+    "chunk_014"
+  ],
+  "guiding": [
+    "chunk_014"
+  ],
+  "readers": [
+    "chunk_014"
+  ],
+  "installation": [
+    "chunk_014"
+  ],
+  "full": [
+    "chunk_014",
+    "chunk_019"
+  ],
+  "stack": [
+    "chunk_014",
+    "chunk_019"
+  ],
+  "dashboard": [
+    "chunk_014"
+  ],
+  "deployment": [
+    "chunk_014"
+  ],
+  "covering": [
+    "chunk_014",
+    "chunk_015"
+  ],
+  "core": [
+    "chunk_014",
+    "chunk_015",
+    "chunk_022"
+  ],
+  "libraries": [
+    "chunk_014",
+    "chunk_015"
+  ],
+  "numpy": [
+    "chunk_014",
+    "chunk_015"
+  ],
+  "pandas": [
+    "chunk_014",
+    "chunk_015"
+  ],
+  "matplotlib": [
+    "chunk_014",
+    "chunk_015"
+  ],
+  "like": [
+    "chunk_014",
+    "chunk_015"
+  ],
+  "git": [
+    "chunk_014",
+    "chunk_015",
+    "chunk_022"
+  ],
+  "github": [
+    "chunk_014",
+    "chunk_015",
+    "chunk_022"
+  ],
+  "aws": [
+    "chunk_014",
+    "chunk_015"
+  ],
+  "render.": [
+    "chunk_014",
+    "chunk_015"
+  ],
+  "ent": [
+    "chunk_015"
+  ],
+  "elevated": [
+    "chunk_015"
+  ],
+  "user": [
+    "chunk_015",
+    "chunk_022"
+  ],
+  "by": [
+    "chunk_015",
+    "chunk_018"
+  ],
+  "integrating": [
+    "chunk_015"
+  ],
+  "real": [
+    "chunk_015",
+    "chunk_019",
+    "chunk_022"
+  ],
+  "world": [
+    "chunk_015"
+  ],
+  "scenarios": [
+    "chunk_015"
+  ],
+  "refining": [
+    "chunk_015"
+  ],
+  "technical": [
+    "chunk_015",
+    "chunk_021",
+    "chunk_022",
+    "chunk_023"
+  ],
+  "walkthroughs": [
+    "chunk_015"
+  ],
+  "deployed": [
+    "chunk_015"
+  ],
+  "sample": [
+    "chunk_015"
+  ],
+  "render": [
+    "chunk_015"
+  ],
+  "enhanced": [
+    "chunk_015"
+  ],
+  "supporting": [
+    "chunk_015",
+    "chunk_019"
+  ],
+  "code": [
+    "chunk_015"
+  ],
+  "deepen": [
+    "chunk_015"
+  ],
+  "understanding": [
+    "chunk_015"
+  ],
+  "deployment.": [
+    "chunk_015"
+  ],
+  "projects": [
+    "chunk_016",
+    "chunk_017",
+    "chunk_018",
+    "chunk_019",
+    "chunk_020"
+  ],
+  "personal": [
+    "chunk_016",
+    "chunk_017",
+    "chunk_018"
+  ],
+  "portfolio": [
+    "chunk_016",
+    "chunk_017",
+    "chunk_018"
+  ],
+  "chatbot": [
+    "chunk_016",
+    "chunk_017",
+    "chunk_018"
+  ],
+  "gpt": [
+    "chunk_016",
+    "chunk_017"
+  ],
+  "4.1": [
+    "chunk_016",
+    "chunk_017"
+  ],
+  "nano": [
+    "chunk_016"
+  ],
+  "chroma": [
+    "chunk_016"
+  ],
+  "fastapi": [
+    "chunk_016",
+    "chunk_018",
+    "chunk_022"
+  ],
+  "developed": [
+    "chunk_016",
+    "chunk_019"
+  ],
+  "powered": [
+    "chunk_016"
+  ],
+  "functions": [
+    "chunk_016"
+  ],
+  "as": [
+    "chunk_016"
+  ],
+  "dynamic": [
+    "chunk_016"
+  ],
+  "answering": [
+    "chunk_016"
+  ],
+  "visitor": [
+    "chunk_016"
+  ],
+  "questions": [
+    "chunk_016"
+  ],
+  "about": [
+    "chunk_016"
+  ],
+  "skills": [
+    "chunk_016",
+    "chunk_017",
+    "chunk_021",
+    "chunk_022",
+    "chunk_023"
+  ],
+  "80": [
+    "chunk_016",
+    "chunk_017"
+  ],
+  "85": [
+    "chunk_016",
+    "chunk_017"
+  ],
+  "accuracy": [
+    "chunk_016",
+    "chunk_017"
+  ],
+  "across": [
+    "chunk_016",
+    "chunk_017"
+  ],
+  "25+": [
+    "chunk_016",
+    "chunk_017"
+  ],
+  "resume": [
+    "chunk_016",
+    "chunk_017"
+  ],
+  "related": [
+    "chunk_016",
+    "chunk_017"
+  ],
+  "topics.": [
+    "chunk_016",
+    "chunk_017"
+  ],
+  "chromadb": [
+    "chunk_016",
+    "chunk_017",
+    "chunk_018"
+  ],
+  "designed": [
+    "chunk_017",
+    "chunk_020"
+  ],
+  "custom": [
+    "chunk_017"
+  ],
+  "retrieval": [
+    "chunk_017"
+  ],
+  "augmented": [
+    "chunk_017"
+  ],
+  "generation": [
+    "chunk_017",
+    "chunk_020"
+  ],
+  "rag": [
+    "chunk_017"
+  ],
+  "pipeline": [
+    "chunk_017"
+  ],
+  "combining": [
+    "chunk_017"
+  ],
+  "semantic": [
+    "chunk_017"
+  ],
+  "search": [
+    "chunk_017",
+    "chunk_018"
+  ],
+  "engine": [
+    "chunk_017"
+  ],
+  "using": [
+    "chunk_017",
+    "chunk_018",
+    "chunk_019"
+  ],
+  "text": [
+    "chunk_017",
+    "chunk_018"
+  ],
+  "embedding": [
+    "chunk_017",
+    "chunk_018"
+  ],
+  "small": [
+    "chunk_017",
+    "chunk_018"
+  ],
+  "index": [
+    "chunk_017",
+    "chunk_018"
+  ],
+  "retrieve": [
+    "chunk_017",
+    "chunk_018"
+  ],
+  "over": [
+    "chunk_017",
+    "chunk_018"
+  ],
+  "chunks.": [
+    "chunk_017",
+    "chunk_018"
+  ],
+  "ine": [
+    "chunk_018"
+  ],
+  "improved": [
+    "chunk_018"
+  ],
+  "response": [
+    "chunk_018"
+  ],
+  "clarity": [
+    "chunk_018"
+  ],
+  "reduced": [
+    "chunk_018"
+  ],
+  "token": [
+    "chunk_018"
+  ],
+  "usage": [
+    "chunk_018"
+  ],
+  "20": [
+    "chunk_018"
+  ],
+  "25": [
+    "chunk_018"
+  ],
+  "leveraging": [
+    "chunk_018"
+  ],
+  "advanced": [
+    "chunk_018"
+  ],
+  "techniques": [
+    "chunk_018"
+  ],
+  "context": [
+    "chunk_018"
+  ],
+  "compression": [
+    "chunk_018"
+  ],
+  "few": [
+    "chunk_018"
+  ],
+  "shot": [
+    "chunk_018"
+  ],
+  "examples": [
+    "chunk_018"
+  ],
+  "optimization.": [
+    "chunk_018"
+  ],
+  "built": [
+    "chunk_018"
+  ],
+  "scalable": [
+    "chunk_018"
+  ],
+  "backend": [
+    "chunk_018",
+    "chunk_022"
+  ],
+  "6+": [
+    "chunk_018"
+  ],
+  "modular": [
+    "chunk_018"
+  ],
+  "rest": [
+    "chunk_018"
+  ],
+  "endpoints": [
+    "chunk_018"
+  ],
+  "integrated": [
+    "chunk_018"
+  ],
+  "vector": [
+    "chunk_018"
+  ],
+  "implemented": [
+    "chunk_018",
+    "chunk_019"
+  ],
+  "robust": [
+    "chunk_018"
+  ],
+  "error": [
+    "chunk_018"
+  ],
+  "handling": [
+    "chunk_018"
+  ],
+  "enabling": [
+    "chunk_018",
+    "chunk_020"
+  ],
+  "low": [
+    "chunk_018"
+  ],
+  "latency": [
+    "chunk_018"
+  ],
+  "performance": [
+    "chunk_018",
+    "chunk_019"
+  ],
+  "under": [
+    "chunk_018"
+  ],
+  "concurrent": [
+    "chunk_018",
+    "chunk_019"
+  ],
+  "api": [
+    "chunk_018",
+    "chunk_022"
+  ],
+  "requests.": [
+    "chunk_018"
+  ],
+  "tic": [
+    "chunk_019",
+    "chunk_020"
+  ],
+  "tac": [
+    "chunk_019",
+    "chunk_020"
+  ],
+  "toe": [
+    "chunk_019",
+    "chunk_020"
+  ],
+  "node.js": [
+    "chunk_019"
+  ],
+  "express": [
+    "chunk_019",
+    "chunk_022"
+  ],
+  "socket.io": [
+    "chunk_019",
+    "chunk_022"
+  ],
+  "mongodb": [
+    "chunk_019",
+    "chunk_020",
+    "chunk_022"
+  ],
+  "html": [
+    "chunk_019",
+    "chunk_021"
+  ],
+  "css": [
+    "chunk_019",
+    "chunk_021"
+  ],
+  "jun.": [
+    "chunk_019"
+  ],
+  "multiplayer": [
+    "chunk_019"
+  ],
+  "game": [
+    "chunk_019",
+    "chunk_020"
+  ],
+  "10": [
+    "chunk_019"
+  ],
+  "15": [
+    "chunk_019"
+  ],
+  "players": [
+    "chunk_019"
+  ],
+  "time": [
+    "chunk_019",
+    "chunk_022"
+  ],
+  "state": [
+    "chunk_019"
+  ],
+  "persistence.": [
+    "chunk_019"
+  ],
+  "secure": [
+    "chunk_019"
+  ],
+  "session": [
+    "chunk_019"
+  ],
+  "authentication": [
+    "chunk_019"
+  ],
+  "http": [
+    "chunk_019"
+  ],
+  "only": [
+    "chunk_019"
+  ],
+  "cookies": [
+    "chunk_019"
+  ],
+  "bcrypt": [
+    "chunk_019"
+  ],
+  "password": [
+    "chunk_019"
+  ],
+  "hashing": [
+    "chunk_019",
+    "chunk_020"
+  ],
+  "currently": [
+    "chunk_019",
+    "chunk_020"
+  ],
+  "managing": [
+    "chunk_019",
+    "chunk_020"
+  ],
+  "100+": [
+    "chunk_019",
+    "chunk_020"
+  ],
+  "seeded": [
+    "chunk_019",
+    "chunk_020"
+  ],
+  "test": [
+    "chunk_019",
+    "chunk_020"
+  ],
+  "accounts": [
+    "chunk_019",
+    "chunk_020"
+  ],
+  "registration": [
+    "chunk_019",
+    "chunk_020"
+  ],
+  "login": [
+    "chunk_019",
+    "chunk_020"
+  ],
+  "functionality.": [
+    "chunk_019",
+    "chunk_020"
+  ],
+  "ord": [
+    "chunk_020"
+  ],
+  "optimized": [
+    "chunk_020"
+  ],
+  "schemas": [
+    "chunk_020"
+  ],
+  "support": [
+    "chunk_020"
+  ],
+  "records": [
+    "chunk_020"
+  ],
+  "leaderboard": [
+    "chunk_020"
+  ],
+  "player": [
+    "chunk_020"
+  ],
+  "statistics": [
+    "chunk_020"
+  ],
+  "via": [
+    "chunk_020"
+  ],
+  "aggregation": [
+    "chunk_020"
+  ],
+  "pipelines.": [
+    "chunk_020"
+  ],
+  "soft": [
+    "chunk_021",
+    "chunk_022",
+    "chunk_023"
+  ],
+  "languages": [
+    "chunk_021"
+  ],
+  "javascript": [
+    "chunk_021"
+  ],
+  "c++": [
+    "chunk_021"
+  ],
+  "java": [
+    "chunk_021"
+  ],
+  "programming": [
+    "chunk_021"
+  ],
+  "openai": [
+    "chunk_022"
+  ],
+  "strengths": [
+    "chunk_022"
+  ],
+  "communication": [
+    "chunk_022"
+  ],
+  "cross": [
+    "chunk_022"
+  ],
+  "functional": [
+    "chunk_022"
+  ],
+  "collaboration": [
+    "chunk_022"
+  ],
+  "problem": [
+    "chunk_022"
+  ],
+  "solving": [
+    "chunk_022"
+  ],
+  "agile": [
+    "chunk_022"
+  ],
+  "workflow": [
+    "chunk_022"
+  ],
+  "centered": [
+    "chunk_022"
+  ],
+  "thinking": [
+    "chunk_023"
+  ],
+  "detail": [
+    "chunk_023"
+  ],
+  "oriented": [
+    "chunk_023"
+  ]
+}

@@ -1,0 +1,337 @@
+[
+  {
+    "id": "chunk_000",
+    "text": "Section: UNKNOWN | Entity: Tae Kim - Tae Kim",
+    "metadata": {
+      "source": "KimTae-SWE-Resume.pdf",
+      "section": "UNKNOWN",
+      "entity": "Tae Kim",
+      "keywords": [],
+      "summary_context": "Tae's work related to Tae Kim."
+    }
+  },
+  {
+    "id": "chunk_001",
+    "text": "Section: UNKNOWN | Entity: taekim0508@gmail.com - taekim0508@gmail.com | linkedin.com/in/kimtae03 | https://github.com/taekim0508",
+    "metadata": {
+      "source": "KimTae-SWE-Resume.pdf",
+      "section": "UNKNOWN",
+      "entity": "taekim0508@gmail.com",
+      "keywords": [],
+      "summary_context": "Tae's work related to taekim0508@gmail.com."
+    }
+  },
+  {
+    "id": "chunk_002",
+    "text": "Section: EDUCATION | Entity: Vanderbilt University Nashville, TN - Vanderbilt University Nashville, TN",
+    "metadata": {
+      "source": "KimTae-SWE-Resume.pdf",
+      "section": "EDUCATION",
+      "entity": "Vanderbilt University Nashville, TN",
+      "keywords": [
+        "Education"
+      ],
+      "summary_context": "Tae's work related to Vanderbilt University Nashville, TN."
+    }
+  },
+  {
+    "id": "chunk_003",
+    "text": "Section: EDUCATION | Entity: B.S. in Computer Science, B.S. in Economics Aug. 2022 - B.S. in Computer Science, B.S. in Economics Aug. 2022 \u2013 May 2026",
+    "metadata": {
+      "source": "KimTae-SWE-Resume.pdf",
+      "section": "EDUCATION",
+      "entity": "B.S. in Computer Science, B.S. in Economics Aug. 2022",
+      "keywords": [
+        "Degree"
+      ],
+      "summary_context": "Tae's work related to B.S. in Computer Science, B.S. in Economics Aug. 2022."
+    }
+  },
+  {
+    "id": "chunk_004",
+    "text": "Section: EDUCATION | Entity: Dean\u2019 s List - Dean\u2019 s List\nRelevant Coursework: Algorithms, Principles of Software Engineering, Principles of Operating Systems, Database Management\nSystems, Intermediate System Design, Applied Econometrics, Microeconomics, Macroeconomics, International Economics,",
+    "metadata": {
+      "source": "KimTae-SWE-Resume.pdf",
+      "section": "EDUCATION",
+      "entity": "Dean\u2019 s List",
+      "keywords": [
+        "Coursework",
+        "Computer Science"
+      ],
+      "summary_context": "Tae's work related to Dean\u2019 s List."
+    }
+  },
+  {
+    "id": "chunk_005",
+    "text": "Section: EDUCATION | Entity: International Trade, Wages, Employment, and Labor Markets. - International Trade, Wages, Employment, and Labor Markets.",
+    "metadata": {
+      "source": "KimTae-SWE-Resume.pdf",
+      "section": "EDUCATION",
+      "entity": "International Trade, Wages, Employment, and Labor Markets.",
+      "keywords": [],
+      "summary_context": "Tae's work related to International Trade, Wages, Employment, and Labor Markets.."
+    }
+  },
+  {
+    "id": "chunk_006",
+    "text": "Section: PROFESSIONAL EXPERIENCE / LEADERSHIP | Entity: LiveArena Technologies Bellevue, WA - LiveArena Technologies Bellevue, WA",
+    "metadata": {
+      "source": "KimTae-SWE-Resume.pdf",
+      "section": "PROFESSIONAL EXPERIENCE / LEADERSHIP",
+      "entity": "LiveArena Technologies Bellevue, WA",
+      "keywords": [
+        "Leadership"
+      ],
+      "summary_context": "Tae's work related to LiveArena Technologies Bellevue, WA."
+    }
+  },
+  {
+    "id": "chunk_007",
+    "text": "Section: PROFESSIONAL EXPERIENCE / LEADERSHIP | Entity: Program Manager / Developer Intern Jul. 2025 - Program Manager / Developer Intern Jul. 2025 \u2013 Sep. 2025\n\u2022 Drove end-to-end design and delivery of a Gen Z AI engagement initiative, conducting foundational research, aligning\nstakeholders, and developing a university-based pilot aimed to scale to 100,000+ students globally within five years.",
+    "metadata": {
+      "source": "KimTae-SWE-Resume.pdf",
+      "section": "PROFESSIONAL EXPERIENCE / LEADERSHIP",
+      "entity": "Program Manager / Developer Intern Jul. 2025",
+      "keywords": [
+        "AI",
+        "Leadership"
+      ],
+      "summary_context": "Tae's work related to Program Manager / Developer Intern Jul. 2025 focused on AI, LLM, Mentorship, Leadership."
+    }
+  },
+  {
+    "id": "chunk_008",
+    "text": "Section: PROFESSIONAL EXPERIENCE / LEADERSHIP | Entity: Program Manager / Developer Intern Jul. 2025 - developing a university-based pilot aimed to scale to 100,000+ students globally within five years.\n\u2022 Executed 4 key program components, including an AI research brief and competitor analysis, while analyzing and constructing\nframeworks for adaptive learning, personalization, and large-scale student engagement.",
+    "metadata": {
+      "source": "KimTae-SWE-Resume.pdf",
+      "section": "PROFESSIONAL EXPERIENCE / LEADERSHIP",
+      "entity": "Program Manager / Developer Intern Jul. 2025",
+      "keywords": [
+        "AI",
+        "Leadership"
+      ],
+      "summary_context": "Tae's work related to Program Manager / Developer Intern Jul. 2025 focused on AI, LLM, Mentorship, Leadership."
+    }
+  },
+  {
+    "id": "chunk_009",
+    "text": "Section: PROFESSIONAL EXPERIENCE / LEADERSHIP | Entity: Program Manager / Developer Intern Jul. 2025 - constructing\nframeworks for adaptive learning, personalization, and large-scale student engagement.\n\u2022 Collaborated with 3 internal teams to prototype an AI mentorship platform that uses LLMs, learner modeling, and prompt\nevaluation pipelines to build adaptive systems that learn from student behavior.",
+    "metadata": {
+      "source": "KimTae-SWE-Resume.pdf",
+      "section": "PROFESSIONAL EXPERIENCE / LEADERSHIP",
+      "entity": "Program Manager / Developer Intern Jul. 2025",
+      "keywords": [
+        "AI",
+        "LLM",
+        "Mentorship",
+        "Leadership"
+      ],
+      "summary_context": "Tae's work related to Program Manager / Developer Intern Jul. 2025 focused on AI, LLM, Mentorship, Leadership."
+    }
+  },
+  {
+    "id": "chunk_010",
+    "text": "Section: PROFESSIONAL EXPERIENCE / LEADERSHIP | Entity: Program Manager / Developer Intern Jul. 2025 - odeling, and prompt\nevaluation pipelines to build adaptive systems that learn from student behavior.\n\u2022 Delivered structured presentations outlining 5 sprints of development and planning to the CEO and leadership team, influencing\ninternal decisions on resource prioritization and long-term AI education strategy.",
+    "metadata": {
+      "source": "KimTae-SWE-Resume.pdf",
+      "section": "PROFESSIONAL EXPERIENCE / LEADERSHIP",
+      "entity": "Program Manager / Developer Intern Jul. 2025",
+      "keywords": [
+        "AI",
+        "Leadership"
+      ],
+      "summary_context": "Tae's work related to Program Manager / Developer Intern Jul. 2025 focused on AI, LLM, Mentorship, Leadership."
+    }
+  },
+  {
+    "id": "chunk_011",
+    "text": "Section: PROFESSIONAL EXPERIENCE / LEADERSHIP | Entity: VandyHacks Marketing Team Nashville, TN - VandyHacks Marketing Team Nashville, TN",
+    "metadata": {
+      "source": "KimTae-SWE-Resume.pdf",
+      "section": "PROFESSIONAL EXPERIENCE / LEADERSHIP",
+      "entity": "VandyHacks Marketing Team Nashville, TN",
+      "keywords": [
+        "Leadership"
+      ],
+      "summary_context": "Tae's work related to VandyHacks Marketing Team Nashville, TN."
+    }
+  },
+  {
+    "id": "chunk_012",
+    "text": "Section: PROFESSIONAL EXPERIENCE / LEADERSHIP | Entity: Marketing Committee Board Member Mar. 2023 - Marketing Committee Board Member Mar. 2023 \u2013 Jan. 2024\n\u2022 Led multi-channel promotions on Instagram, TikTok, and YouTube, elevating hacker culture engagement with 50+ posts and\nvideos that expanded student reach and supported record attendance.\n\u2022 Explored applications of AI-driven tools including generative content, predictive analytics, and personalized recommendations to\nengage the greater Nashville community, enhance content retention, and strengthen long-term participation.",
+    "metadata": {
+      "source": "KimTae-SWE-Resume.pdf",
+      "section": "PROFESSIONAL EXPERIENCE / LEADERSHIP",
+      "entity": "Marketing Committee Board Member Mar. 2023",
+      "keywords": [
+        "Leadership"
+      ],
+      "summary_context": "Tae's work related to Marketing Committee Board Member Mar. 2023."
+    }
+  },
+  {
+    "id": "chunk_013",
+    "text": "Section: PROFESSIONAL EXPERIENCE / LEADERSHIP | Entity: Data Visualization and Interactive Dashboards with Python Nashville, TN - Data Visualization and Interactive Dashboards with Python Nashville, TN",
+    "metadata": {
+      "source": "KimTae-SWE-Resume.pdf",
+      "section": "PROFESSIONAL EXPERIENCE / LEADERSHIP",
+      "entity": "Data Visualization and Interactive Dashboards with Python Nashville, TN",
+      "keywords": [
+        "Python",
+        "Leadership"
+      ],
+      "summary_context": "Tae's work related to Data Visualization and Interactive Dashboards with Python Nashville, TN focused on Python."
+    }
+  },
+  {
+    "id": "chunk_014",
+    "text": "Section: PROFESSIONAL EXPERIENCE / LEADERSHIP | Entity: Textbook Editor Mar. 2023 - Textbook Editor Mar. 2023 \u2013 Mar. 2024\n\u2022 Edited and reorganized a 180+ page university-sponsored textbook guiding readers from Python installation to full-stack\ndashboard deployment, covering core libraries (NumPy, pandas, Matplotlib) and tools like Git/GitHub, AWS, and Render.",
+    "metadata": {
+      "source": "KimTae-SWE-Resume.pdf",
+      "section": "PROFESSIONAL EXPERIENCE / LEADERSHIP",
+      "entity": "Textbook Editor Mar. 2023",
+      "keywords": [
+        "Python",
+        "AWS",
+        "Leadership"
+      ],
+      "summary_context": "Tae's work related to Textbook Editor Mar. 2023 focused on Python, AWS."
+    }
+  },
+  {
+    "id": "chunk_015",
+    "text": "Section: PROFESSIONAL EXPERIENCE / LEADERSHIP | Entity: Textbook Editor Mar. 2023 - ent, covering core libraries (NumPy, pandas, Matplotlib) and tools like Git/GitHub, AWS, and Render.\n\u2022 Elevated user experience by integrating real-world scenarios and refining technical walkthroughs; deployed sample dashboards\non AWS and Render and enhanced supporting code to deepen understanding of data analysis and deployment.",
+    "metadata": {
+      "source": "KimTae-SWE-Resume.pdf",
+      "section": "PROFESSIONAL EXPERIENCE / LEADERSHIP",
+      "entity": "Textbook Editor Mar. 2023",
+      "keywords": [
+        "AWS",
+        "Leadership"
+      ],
+      "summary_context": "Tae's work related to Textbook Editor Mar. 2023 focused on Python, AWS."
+    }
+  },
+  {
+    "id": "chunk_016",
+    "text": "Section: PROJECTS | Entity: Personal Portfolio Chatbot - Personal Portfolio Chatbot | GPT-4.1 Nano, Chroma, FastAPI Jul. 2025 \u2013 Sep. 2025\n\u2022 Developed an interactive AI-powered chatbot that functions as a dynamic personal portfolio, answering visitor questions about\nprofessional experience, skills, and projects with 80-85% accuracy across 25+ resume-related topics.",
+    "metadata": {
+      "source": "KimTae-SWE-Resume.pdf",
+      "section": "PROJECTS",
+      "entity": "Personal Portfolio Chatbot",
+      "keywords": [
+        "LLM",
+        "FastAPI",
+        "ChromaDB"
+      ],
+      "summary_context": "Tae's work related to Personal Portfolio Chatbot focused on LLM, FastAPI, ChromaDB, REST."
+    }
+  },
+  {
+    "id": "chunk_017",
+    "text": "Section: PROJECTS | Entity: Personal Portfolio Chatbot - professional experience, skills, and projects with 80-85% accuracy across 25+ resume-related topics.\n\u2022 Designed a custom retrieval-augmented generation (RAG) pipeline combining GPT-4.1 with a semantic search engine using\ntext-embedding-3-small and ChromaDB to index and retrieve over 100 structured data chunks.",
+    "metadata": {
+      "source": "KimTae-SWE-Resume.pdf",
+      "section": "PROJECTS",
+      "entity": "Personal Portfolio Chatbot",
+      "keywords": [
+        "LLM",
+        "ChromaDB"
+      ],
+      "summary_context": "Tae's work related to Personal Portfolio Chatbot focused on LLM, FastAPI, ChromaDB, REST."
+    }
+  },
+  {
+    "id": "chunk_018",
+    "text": "Section: PROJECTS | Entity: Personal Portfolio Chatbot - ine using\ntext-embedding-3-small and ChromaDB to index and retrieve over 100 structured data chunks.\n\u2022 Improved response clarity and reduced token usage by 20-25% by leveraging advanced prompt engineering techniques,\nincluding context compression, few-shot examples, and token optimization.\n\u2022 Built a scalable backend using FastAPI with 6+ modular REST endpoints, integrated vector search, and implemented robust\nerror handling, enabling low-latency performance under 50+ concurrent API requests.",
+    "metadata": {
+      "source": "KimTae-SWE-Resume.pdf",
+      "section": "PROJECTS",
+      "entity": "Personal Portfolio Chatbot",
+      "keywords": [
+        "FastAPI",
+        "ChromaDB",
+        "REST",
+        "Backend"
+      ],
+      "summary_context": "Tae's work related to Personal Portfolio Chatbot focused on LLM, FastAPI, ChromaDB, REST."
+    }
+  },
+  {
+    "id": "chunk_019",
+    "text": "Section: PROJECTS | Entity: Tic Tac Toe - Tic Tac Toe | Node.js, Express, Socket.IO, MongoDB, HTML, CSS Jun. 2025 \u2013 Sep. 2025\n\u2022 Developed full-stack multiplayer Tic Tac Toe game supporting 10-15 concurrent players with real-time performance using\nSocket.IO and MongoDB for state persistence.\n\u2022 Implemented secure session-based authentication using express-session, HTTP-only cookies, and bcrypt for password hashing;\ncurrently managing 100+ seeded test accounts with registration and login functionality.",
+    "metadata": {
+      "source": "KimTae-SWE-Resume.pdf",
+      "section": "PROJECTS",
+      "entity": "Tic Tac Toe",
+      "keywords": [
+        "Socket.IO",
+        "MongoDB",
+        "Node.js",
+        "Real-time"
+      ],
+      "summary_context": "Tae's work related to Tic Tac Toe focused on Socket.IO, MongoDB, Node.js, Real-time."
+    }
+  },
+  {
+    "id": "chunk_020",
+    "text": "Section: PROJECTS | Entity: Tic Tac Toe - ord hashing;\ncurrently managing 100+ seeded test accounts with registration and login functionality.\n\u2022 Designed and optimized MongoDB schemas to support 1,000+ game records, enabling leaderboard generation and player\nstatistics via aggregation pipelines.",
+    "metadata": {
+      "source": "KimTae-SWE-Resume.pdf",
+      "section": "PROJECTS",
+      "entity": "Tic Tac Toe",
+      "keywords": [
+        "MongoDB"
+      ],
+      "summary_context": "Tae's work related to Tic Tac Toe focused on Socket.IO, MongoDB, Node.js, Real-time."
+    }
+  },
+  {
+    "id": "chunk_021",
+    "text": "Section: TECHNICAL / SOFT SKILLS | Entity: Languages: JavaScript, Python, C/C++, Java, HTML, CSS - Languages: JavaScript, Python, C/C++, Java, HTML, CSS",
+    "metadata": {
+      "source": "KimTae-SWE-Resume.pdf",
+      "section": "TECHNICAL / SOFT SKILLS",
+      "entity": "Languages: JavaScript, Python, C/C++, Java, HTML, CSS",
+      "keywords": [
+        "Python",
+        "Programming Languages",
+        "Technical Skills"
+      ],
+      "summary_context": "Tae's work related to Languages: JavaScript, Python, C/C++, Java, HTML, CSS focused on Python."
+    }
+  },
+  {
+    "id": "chunk_022",
+    "text": "Section: TECHNICAL / SOFT SKILLS | Entity: Frameworks & Tools: FastAPI, Express, OpenAI API, Socket.IO, Git, GitHub, MongoDB - Frameworks & Tools: FastAPI, Express, OpenAI API, Socket.IO, Git, GitHub, MongoDB\nCore Strengths: Technical Communication, Cross-functional Collaboration, Problem Solving, Agile Workflow, User-Centered",
+    "metadata": {
+      "source": "KimTae-SWE-Resume.pdf",
+      "section": "TECHNICAL / SOFT SKILLS",
+      "entity": "Frameworks & Tools: FastAPI, Express, OpenAI API, Socket.IO, Git, GitHub, MongoDB",
+      "keywords": [
+        "FastAPI",
+        "OpenAI API",
+        "Socket.IO",
+        "MongoDB",
+        "Backend",
+        "Real-time",
+        "Frameworks & Tools",
+        "Technical Skills"
+      ],
+      "summary_context": "Tae's work related to Frameworks & Tools: FastAPI, Express, OpenAI API, Socket.IO, Git, GitHub, MongoDB focused on FastAPI, OpenAI API, Socket.IO, MongoDB."
+    }
+  },
+  {
+    "id": "chunk_023",
+    "text": "Section: TECHNICAL / SOFT SKILLS | Entity: Thinking, Detail-Oriented - Thinking, Detail-Oriented",
+    "metadata": {
+      "source": "KimTae-SWE-Resume.pdf",
+      "section": "TECHNICAL / SOFT SKILLS",
+      "entity": "Thinking, Detail-Oriented",
+      "keywords": [
+        "Technical Skills"
+      ],
+      "summary_context": "Tae's work related to Thinking, Detail-Oriented."
+    }
+  }
+]
