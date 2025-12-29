@@ -3,6 +3,7 @@ from app.chat.schema import ChatRequest, ChatResponse, RetrievedEvidence, Citati
 from app.core.kb import get_kb
 from rag.retrieval import retrieve
 from app.chat.prompting import build_prompt
+from app.chat.llm import generate_answer_with_citations
 
 router = APIRouter(prefix="/chat", tags=["chat"])
 
@@ -18,33 +19,44 @@ def chat(req: ChatRequest) -> ChatResponse:
         top_k=req.top_k,
     )
 
-    # Convert retrieval results → raw chunk dicts
     retrieved_chunks = [r.chunk for r in results]
+    allowed_chunk_ids = [c.get("id", "") for c in retrieved_chunks if c.get("id")]
 
-    # Build prompt (LLM-agnostic). You can log this for debugging.
     system_prompt, user_prompt = build_prompt(req.query, retrieved_chunks)
 
-    # Placeholder answer (until LLM is wired in)
-    answer = (
-        "Retrieval succeeded. Next step: wire an LLM call to synthesize an answer.\n\n"
-        "For debugging, here are the top retrieved sources (section/entity)."
+    # REAL ANSWER (replaces placeholder)
+    answer, cited_ids, _raw = generate_answer_with_citations(
+        system_prompt=system_prompt,
+        user_prompt=user_prompt,
+        allowed_chunk_ids=allowed_chunk_ids,
+        model="gpt-4.1-nano",
     )
 
+    # Build citations from cited chunk ids (map back to metadata)
     citations = []
-    evidence = []
-    for r in results:
-        ch = r.chunk
+    for cid in cited_ids:
+        ch = kb.chunk_by_id.get(cid)
+        if not ch:
+            continue
         meta = ch.get("metadata", {})
         citations.append(
             Citation(
-                chunk_id=ch["id"],
+                chunk_id=cid,
                 section=str(meta.get("section", "")),
                 entity=str(meta.get("entity", "")),
             )
         )
+
+    evidence = []
+    for r in results:
+        ch = r.chunk
+        meta = ch.get("metadata", {})
+        chunk_id = ch.get("id", "")
+        if not chunk_id:
+            continue  # Skip chunks without IDs
         evidence.append(
             RetrievedEvidence(
-                id=ch["id"],
+                id=chunk_id,
                 score=r.score,
                 section=str(meta.get("section", "")),
                 entity=str(meta.get("entity", "")),

@@ -1,5 +1,12 @@
 # backend/app/main.py
 from fastapi import FastAPI
+from dotenv import load_dotenv
+from pathlib import Path
+
+# Load environment variables from .env file
+env_path = Path(__file__).parent.parent / ".env"
+load_dotenv(dotenv_path=env_path)
+
 from app.chat.routes import router as chat_router
 from app.core.kb import load_kb, set_kb
 

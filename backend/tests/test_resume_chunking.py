@@ -58,3 +58,57 @@ def test_entities_not_all_general():
     entities = [c["metadata"]["entity"] for c in chunks]
     assert len(entities) > 0
     assert any(e != "General" for e in entities), "All entities are 'General'—entity detection likely failed."
+
+
+def test_experience_entities_no_lowercase_commas():
+    """
+    Test that PROFESSIONAL EXPERIENCE entities don't contain wrapped bullet continuations.
+    No entity should start with lowercase and contain commas (e.g., "stakeholders, and developing...").
+    """
+    pdf_path = Path("data/KimTae-SWE-Resume.pdf")
+    text = extract_text_from_pdf(str(pdf_path))
+    chunks = create_contextual_chunks(text)
+
+    # Get all entities from PROFESSIONAL EXPERIENCE sections
+    exp_chunks = [
+        c for c in chunks 
+        if c["metadata"]["section"].startswith("PROFESSIONAL EXPERIENCE")
+    ]
+    entities = [c["metadata"]["entity"] for c in exp_chunks]
+    
+    # Check that no entity starts with lowercase and contains commas
+    # This would indicate a wrapped bullet continuation was incorrectly used as entity
+    for entity in entities:
+        if entity and entity[0].islower() and "," in entity:
+            assert False, (
+                f"Found experience entity that looks like wrapped bullet continuation: '{entity}'. "
+                f"This should not be an entity header."
+            )
+
+
+def test_projects_has_multiple_entities():
+    """
+    Test that PROJECTS section has at least 2 distinct entities.
+    This ensures project headers are being detected correctly.
+    """
+    pdf_path = Path("data/KimTae-SWE-Resume.pdf")
+    text = extract_text_from_pdf(str(pdf_path))
+    chunks = create_contextual_chunks(text)
+
+    # Get all entities from PROJECTS section
+    project_chunks = [
+        c for c in chunks 
+        if c["metadata"]["section"] == "PROJECTS"
+    ]
+    entities = set(c["metadata"]["entity"] for c in project_chunks)
+    
+    # Should have at least 2 distinct entities (e.g., "Personal Portfolio Chatbot", "Tic Tac Toe")
+    assert len(entities) >= 2, (
+        f"PROJECTS section should have at least 2 distinct entities, but found: {entities}"
+    )
+    
+    # Entities should not all be "General"
+    assert "General" not in entities or len(entities) > 1, (
+        f"PROJECTS section entities are all 'General'—project header detection likely failed. "
+        f"Found entities: {entities}"
+    )
