@@ -53,12 +53,17 @@ def generate_answer_with_citations(
     json_instruction = f"""
 Return ONLY valid JSON with this shape:
 {{
-  "answer": "string",
+  "answer": "string (conversational, synthesized answer grouped by entity with bullet points)",
   "citations": ["chunk_000", "chunk_005"]
 }}
 
 Rules:
+- Synthesize the evidence into conversational language - don't copy resume bullets verbatim
+- The answer must be grouped by entity (Company/Project) with entity names as headers
+- Use bullet points under each entity, written conversationally
+- Combine related information from multiple chunks when appropriate
 - citations must be a subset of: {allowed_chunk_ids}
+- Only cite chunk IDs that you actually used in your answer
 - If context is insufficient, answer must say so explicitly and citations can be [].
 """
 

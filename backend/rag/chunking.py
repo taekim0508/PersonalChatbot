@@ -415,6 +415,70 @@ def is_probable_project_header(line: str) -> bool:
     return _titlecase_score(s) >= 0.70
 
 
+def validate_entity(entity: str, fallback: Optional[str] = None) -> str:
+    """
+    Validate that an extracted entity is actually a valid entity name.
+    
+    Hard guard rules:
+    - Must be ≤ ~80 characters
+    - Not start with lowercase
+    - Not contain commas + conjunctions (and, with, aimed, etc.)
+    - Not look like a sentence (ends with . or contains verbs)
+    
+    If validation fails → fallback to the last valid entity or "General".
+    
+    Why this exists:
+      Sentence fragments like "stakeholders, and developing a university-based pilot..."
+      are being incorrectly promoted to entity status. This breaks citations, UI grouping,
+      and confidence scoring. This function prevents that.
+    """
+    if not entity or not entity.strip():
+        return fallback or "General"
+    
+    s = entity.strip()
+    
+    # Rule 1: Must be ≤ ~80 characters
+    if len(s) > 80:
+        return fallback or "General"
+    
+    # Rule 2: Not start with lowercase
+    if s and s[0].islower():
+        return fallback or "General"
+    
+    # Rule 3: Not contain commas + conjunctions (and, with, aimed, etc.)
+    # Common conjunctions and verbs that indicate sentence fragments
+    conjunctions_and_verbs = [
+        "and", "with", "aimed", "developing", "creating", "building",
+        "stakeholders", "collaborating", "working", "focused", "leading"
+    ]
+    if "," in s:
+        # If it has a comma, check if it contains conjunction-like words
+        s_lower = s.lower()
+        for word in conjunctions_and_verbs:
+            if word in s_lower:
+                return fallback or "General"
+    
+    # Rule 4: Not look like a sentence (ends with . or contains verbs)
+    if s.endswith("."):
+        return fallback or "General"
+    
+    # Check for verb-like patterns that suggest a sentence fragment
+    # Common patterns: "ing" verbs, "ed" verbs, "to" infinitives
+    verb_patterns = [
+        r"\b\w+ing\b",  # developing, creating, building
+        r"\b\w+ed\b",   # aimed, developed, created
+        r"\bto\s+\w+",  # to scale, to build
+    ]
+    for pattern in verb_patterns:
+        if re.search(pattern, s, re.I):
+            # If it's a long string with verbs, it's likely a sentence fragment
+            if len(s) > 40:
+                return fallback or "General"
+    
+    # If all checks pass, return the validated entity
+    return s
+
+
 def _extract_project_entity(line: str) -> str:
     """
     Extract the project name from a project header line.
@@ -480,7 +544,16 @@ def group_by_entity(section: str, section_lines: List[str]) -> List[Dict[str, st
                 if current_entity is not None:
                     flush()
                 # Extract company name (left of separator if present)
-                company = _split_on_entity_sep(s)[0].strip()
+                company_raw = _split_on_entity_sep(s)[0].strip()
+                # Validate the extracted entity - fallback to last valid company or General
+                company = validate_entity(company_raw, fallback=current_company)
+                if company != company_raw:
+                    # Validation failed - use fallback but keep the line in buffer
+                    # This prevents losing content while avoiding bad entity names
+                    current_entity = company
+                    buf.append(s)
+                    continue
+                # Validation passed - update both current_company and current_entity
                 current_company = company
                 current_entity = company
                 buf.append(s)
@@ -508,7 +581,9 @@ def group_by_entity(section: str, section_lines: List[str]) -> List[Dict[str, st
             if "|" in s and not is_bullet(s):
                 if current_entity is not None:
                     flush()
-                current_entity = _extract_project_entity(s)
+                project_raw = _extract_project_entity(s)
+                # Validate the extracted entity - fallback to last valid entity or General
+                current_entity = validate_entity(project_raw, fallback=current_entity)
                 buf.append(s)
                 continue
             
@@ -516,7 +591,9 @@ def group_by_entity(section: str, section_lines: List[str]) -> List[Dict[str, st
             if is_probable_project_header(s):
                 if current_entity is not None:
                     flush()
-                current_entity = _extract_project_entity(s)
+                project_raw = _extract_project_entity(s)
+                # Validate the extracted entity - fallback to last valid entity or General
+                current_entity = validate_entity(project_raw, fallback=current_entity)
                 buf.append(s)
                 continue
 

@@ -272,3 +272,4 @@ def test_chat_endpoint_answer_field_present(client):
     assert isinstance(data["answer"], str)
     assert len(data["answer"]) > 0
 
+

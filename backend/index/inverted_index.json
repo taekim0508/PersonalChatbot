@@ -17,6 +17,7 @@
   ],
   "education": [
     "chunk_000",
+    "chunk_003",
     "chunk_004"
   ],
   "entity": [
@@ -38,10 +39,6 @@
   "general": [
     "chunk_000",
     "chunk_001",
-    "chunk_009",
-    "chunk_010",
-    "chunk_011",
-    "chunk_012",
     "chunk_013"
   ],
   "vanderbilt": [
@@ -49,23 +46,18 @@
   ],
   "university": [
     "chunk_000",
-    "chunk_003",
-    "chunk_004",
+    "chunk_002",
     "chunk_007"
   ],
   "nashville": [
     "chunk_000",
     "chunk_005",
-    "chunk_006",
-    "chunk_007",
-    "chunk_008"
+    "chunk_007"
   ],
   "tn": [
     "chunk_000",
     "chunk_005",
-    "chunk_006",
-    "chunk_007",
-    "chunk_008"
+    "chunk_007"
   ],
   "b.s.": [
     "chunk_000"
@@ -116,7 +108,7 @@
   "of": [
     "chunk_000",
     "chunk_002",
-    "chunk_004",
+    "chunk_003",
     "chunk_005",
     "chunk_008"
   ],
@@ -132,8 +124,7 @@
   ],
   "systems": [
     "chunk_000",
-    "chunk_003",
-    "chunk_004"
+    "chunk_003"
   ],
   "database": [
     "chunk_000"
@@ -252,20 +243,43 @@
     "chunk_008"
   ],
   "livearena": [
-    "chunk_002"
+    "chunk_002",
+    "chunk_003",
+    "chunk_004",
+    "chunk_005",
+    "chunk_006",
+    "chunk_007",
+    "chunk_008"
   ],
   "technologies": [
-    "chunk_002"
+    "chunk_002",
+    "chunk_003",
+    "chunk_004",
+    "chunk_005",
+    "chunk_006",
+    "chunk_007",
+    "chunk_008"
   ],
   "bellevue": [
-    "chunk_002"
+    "chunk_002",
+    "chunk_003",
+    "chunk_004",
+    "chunk_005",
+    "chunk_006",
+    "chunk_007",
+    "chunk_008"
   ],
   "wa": [
-    "chunk_002"
+    "chunk_002",
+    "chunk_003",
+    "chunk_004",
+    "chunk_005",
+    "chunk_006",
+    "chunk_007",
+    "chunk_008"
   ],
   "program": [
-    "chunk_002",
-    "chunk_003"
+    "chunk_002"
   ],
   "manager": [
     "chunk_002"
@@ -299,7 +313,6 @@
   "to": [
     "chunk_002",
     "chunk_003",
-    "chunk_004",
     "chunk_005",
     "chunk_007",
     "chunk_008",
@@ -334,121 +347,116 @@
     "chunk_002"
   ],
   "research": [
-    "chunk_002",
-    "chunk_003"
+    "chunk_002"
   ],
   "aligning": [
     "chunk_002"
   ],
   "stakeholders": [
-    "chunk_003",
-    "chunk_004"
+    "chunk_002"
   ],
   "developing": [
-    "chunk_003",
-    "chunk_004"
+    "chunk_002"
   ],
   "based": [
-    "chunk_003",
-    "chunk_004",
+    "chunk_002",
     "chunk_011"
   ],
   "pilot": [
-    "chunk_003",
-    "chunk_004"
+    "chunk_002"
   ],
   "aimed": [
-    "chunk_003",
-    "chunk_004"
+    "chunk_002"
   ],
   "scale": [
-    "chunk_003",
-    "chunk_004"
+    "chunk_002",
+    "chunk_003"
   ],
   "100": [
-    "chunk_003",
-    "chunk_004",
+    "chunk_002",
     "chunk_009",
     "chunk_010"
   ],
   "000+": [
-    "chunk_003",
-    "chunk_004",
+    "chunk_002",
     "chunk_012"
   ],
   "students": [
-    "chunk_003",
-    "chunk_004"
+    "chunk_002"
   ],
   "globally": [
-    "chunk_003",
-    "chunk_004"
+    "chunk_002"
   ],
   "within": [
-    "chunk_003",
-    "chunk_004"
+    "chunk_002"
   ],
   "five": [
-    "chunk_003",
-    "chunk_004"
+    "chunk_002"
   ],
   "years.": [
-    "chunk_003",
-    "chunk_004"
+    "chunk_002"
   ],
   "executed": [
-    "chunk_003"
+    "chunk_002"
   ],
   "key": [
-    "chunk_003"
+    "chunk_002"
   ],
   "components": [
-    "chunk_003"
+    "chunk_002"
   ],
   "including": [
-    "chunk_003",
+    "chunk_002",
     "chunk_005",
     "chunk_010"
   ],
   "an": [
+    "chunk_002",
     "chunk_003",
     "chunk_009"
   ],
   "brief": [
-    "chunk_003"
+    "chunk_002"
   ],
   "competitor": [
-    "chunk_003"
+    "chunk_002"
   ],
   "analysis": [
-    "chunk_003",
+    "chunk_002",
     "chunk_008"
   ],
   "while": [
-    "chunk_003"
+    "chunk_002"
   ],
   "analyzing": [
-    "chunk_003"
+    "chunk_002"
   ],
   "constructing": [
-    "chunk_003"
+    "chunk_002"
   ],
   "frameworks": [
+    "chunk_002",
     "chunk_003",
     "chunk_013"
   ],
   "for": [
+    "chunk_002",
     "chunk_003",
     "chunk_011"
   ],
   "adaptive": [
-    "chunk_003",
-    "chunk_004"
+    "chunk_002",
+    "chunk_003"
   ],
   "learning": [
+    "chunk_002",
     "chunk_003"
   ],
   "personalization": [
+    "chunk_002",
+    "chunk_003"
+  ],
+  "cting": [
     "chunk_003"
   ],
   "large": [
@@ -456,7 +464,6 @@
   ],
   "student": [
     "chunk_003",
-    "chunk_004",
     "chunk_005"
   ],
   "engagement.": [
@@ -469,14 +476,12 @@
     "chunk_003",
     "chunk_005",
     "chunk_007",
-    "chunk_008",
     "chunk_009",
     "chunk_010",
     "chunk_011"
   ],
   "internal": [
-    "chunk_003",
-    "chunk_004"
+    "chunk_003"
   ],
   "teams": [
     "chunk_003"
@@ -492,7 +497,6 @@
   ],
   "that": [
     "chunk_003",
-    "chunk_004",
     "chunk_005",
     "chunk_009"
   ],
@@ -513,103 +517,106 @@
     "chunk_010"
   ],
   "evaluation": [
-    "chunk_003",
-    "chunk_004"
+    "chunk_003"
   ],
   "pipelines": [
-    "chunk_003",
-    "chunk_004"
+    "chunk_003"
   ],
   "build": [
-    "chunk_003",
-    "chunk_004"
-  ],
-  "llm": [
-    "chunk_003",
-    "chunk_009"
+    "chunk_003"
   ],
   "learn": [
-    "chunk_004"
+    "chunk_003"
   ],
   "from": [
-    "chunk_004",
+    "chunk_003",
     "chunk_007"
   ],
   "behavior.": [
-    "chunk_004"
+    "chunk_003"
   ],
   "delivered": [
-    "chunk_004"
+    "chunk_003"
   ],
   "structured": [
-    "chunk_004",
+    "chunk_003",
     "chunk_009",
     "chunk_010"
   ],
   "presentations": [
-    "chunk_004"
+    "chunk_003"
   ],
   "outlining": [
-    "chunk_004"
+    "chunk_003"
   ],
   "sprints": [
-    "chunk_004"
+    "chunk_003"
   ],
   "development": [
-    "chunk_004"
+    "chunk_003"
   ],
   "planning": [
-    "chunk_004"
+    "chunk_003"
   ],
   "the": [
-    "chunk_004",
+    "chunk_003",
     "chunk_005"
   ],
   "ceo": [
-    "chunk_004"
+    "chunk_003"
   ],
   "team": [
-    "chunk_004",
-    "chunk_005",
-    "chunk_006"
+    "chunk_003",
+    "chunk_005"
   ],
   "influencing": [
-    "chunk_004"
+    "chunk_003"
   ],
   "decisions": [
-    "chunk_004"
+    "chunk_003"
   ],
   "on": [
-    "chunk_004",
+    "chunk_003",
     "chunk_005",
     "chunk_007",
     "chunk_008"
   ],
   "resource": [
-    "chunk_004"
+    "chunk_003"
   ],
   "prioritization": [
+    "chunk_003",
     "chunk_004"
   ],
   "long": [
+    "chunk_003",
     "chunk_004",
     "chunk_005",
     "chunk_006"
   ],
   "term": [
+    "chunk_003",
     "chunk_004",
     "chunk_006"
+  ],
+  "strategy": [
+    "chunk_003"
+  ],
+  "llm": [
+    "chunk_003",
+    "chunk_009"
+  ],
+  "urce": [
+    "chunk_004"
   ],
   "strategy.": [
     "chunk_004"
   ],
   "vandyhacks": [
-    "chunk_005",
-    "chunk_006"
+    "chunk_005"
   ],
   "marketing": [
-    "chunk_005",
-    "chunk_006"
+    "chunk_005"
   ],
   "committee": [
     "chunk_005"
@@ -756,12 +763,10 @@
     "chunk_010"
   ],
   "visualization": [
-    "chunk_007",
-    "chunk_008"
+    "chunk_007"
   ],
   "interactive": [
     "chunk_007",
-    "chunk_008",
     "chunk_009"
   ],
   "dashboards": [
@@ -770,7 +775,6 @@
   ],
   "python": [
     "chunk_007",
-    "chunk_008",
     "chunk_013"
   ],
   "textbook": [
@@ -870,7 +874,6 @@
   ],
   "real": [
     "chunk_007",
-    "chunk_010",
     "chunk_011",
     "chunk_013"
   ],
@@ -929,13 +932,16 @@
     "chunk_012"
   ],
   "personal": [
-    "chunk_009"
+    "chunk_009",
+    "chunk_010"
   ],
   "portfolio": [
-    "chunk_009"
+    "chunk_009",
+    "chunk_010"
   ],
   "chatbot": [
-    "chunk_009"
+    "chunk_009",
+    "chunk_010"
   ],
   "gpt": [
     "chunk_009"
@@ -1142,7 +1148,6 @@
   ],
   "backend": [
     "chunk_010",
-    "chunk_011",
     "chunk_013"
   ],
   "6+": [
@@ -1199,44 +1204,29 @@
   ],
   "api": [
     "chunk_010",
-    "chunk_011",
     "chunk_013"
   ],
   "requests.": [
-    "chunk_010",
-    "chunk_011"
+    "chunk_010"
   ],
   "tic": [
-    "chunk_010",
-    "chunk_011"
+    "chunk_011",
+    "chunk_012"
   ],
   "tac": [
-    "chunk_010",
-    "chunk_011"
+    "chunk_011",
+    "chunk_012"
   ],
   "toe": [
-    "chunk_010",
-    "chunk_011"
+    "chunk_011",
+    "chunk_012"
   ],
   "node.js": [
-    "chunk_010",
     "chunk_011"
   ],
   "express": [
-    "chunk_010",
     "chunk_011",
     "chunk_013"
-  ],
-  "socket": [
-    "chunk_010"
-  ],
-  "time": [
-    "chunk_010",
-    "chunk_011",
-    "chunk_013"
-  ],
-  "nt": [
-    "chunk_011"
   ],
   "socket.io": [
     "chunk_011",
@@ -1273,6 +1263,10 @@
   ],
   "players": [
     "chunk_011"
+  ],
+  "time": [
+    "chunk_011",
+    "chunk_013"
   ],
   "state": [
     "chunk_011"
@@ -1329,21 +1323,20 @@
     "chunk_011"
   ],
   "login": [
-    "chunk_011",
-    "chunk_012"
+    "chunk_011"
   ],
   "functionality.": [
-    "chunk_011",
-    "chunk_012"
+    "chunk_011"
   ],
   "optimized": [
     "chunk_011",
     "chunk_012"
   ],
-  "tion": [
+  "schemas": [
+    "chunk_011",
     "chunk_012"
   ],
-  "schemas": [
+  "nctionality.": [
     "chunk_012"
   ],
   "support": [

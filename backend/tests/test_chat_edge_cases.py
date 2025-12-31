@@ -205,3 +205,4 @@ def test_prompting_handles_missing_summary_context():
     assert "chunk_001" in result
     assert "SummaryContext: " in result  # Should have label even if empty
 
+

@@ -139,3 +139,4 @@ def test_format_context_chunks_preserves_text():
     assert long_text in result
     assert len(result) > len(long_text)  # Plus formatting
 
+
