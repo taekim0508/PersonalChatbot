@@ -37,9 +37,12 @@ ENVIRONMENT = os.getenv("ENVIRONMENT", "development")
 FRONTEND_URL = os.getenv("FRONTEND_URL", "")
 
 # Configure allowed origins based on environment
+# Note: FastAPI CORS middleware requires exact origin matches (including protocol and trailing slash handling)
 if ENVIRONMENT == "production" and FRONTEND_URL:
-    # Production: Only allow the specified frontend URL
-    allowed_origins = [FRONTEND_URL]
+    # Production: Allow the specified frontend URL
+    # Strip any trailing slashes to ensure exact match
+    frontend_url_clean = FRONTEND_URL.rstrip("/")
+    allowed_origins = [frontend_url_clean]
     # Include OPTIONS for CORS preflight requests
     allowed_methods = ["GET", "POST", "OPTIONS"]
     # Allow headers needed for CORS preflight and actual requests
@@ -54,6 +57,13 @@ else:
     ]
     allowed_methods = ["*"]  # Allow all methods in dev
     allowed_headers = ["*"]  # Allow all headers in dev
+
+# Log CORS configuration for debugging (only in production to avoid cluttering dev logs)
+if ENVIRONMENT == "production":
+    print(f"[CORS Config] Environment: {ENVIRONMENT}")
+    print(f"[CORS Config] FRONTEND_URL: {FRONTEND_URL}")
+    print(f"[CORS Config] Allowed origins: {allowed_origins}")
+    print(f"[CORS Config] Allowed methods: {allowed_methods}")
 
 # Store for debug endpoint
 CORS_CONFIG = {
