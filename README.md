@@ -34,6 +34,7 @@ This project was developed using modern AI-assisted development tools:
 
 - **Cursor** - AI-powered code editor for intelligent code completion and refactoring
 - **ChatGPT** - AI assistant for architecture design, debugging, and code review
+- **Loveable** - Prompt-Based AI App Builder — Rapidly design, build & launch web apps with AI. 
 
 These tools were instrumental in accelerating development and ensuring code quality.
 
