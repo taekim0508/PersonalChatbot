@@ -30,14 +30,12 @@ An intelligent chatbot that answers questions about my background, experience, a
 
 ## Development Tools
 
-This project was developed using modern AI-assisted development tools and design platforms:
+This project was developed using modern AI-assisted development tools:
 
 - **Cursor** - AI-powered code editor for intelligent code completion and refactoring
 - **ChatGPT** - AI assistant for architecture design, debugging, and code review
-- **Lovable** - UI component generation and design system tools
-- **Figma** - UI/UX design and prototyping
 
-These tools were instrumental in accelerating development, ensuring code quality, and creating a polished user interface.
+These tools were instrumental in accelerating development and ensuring code quality.
 
 ## Project Structure
 
@@ -100,7 +98,8 @@ npm test
 ## Learn More
 
 - [Backend Architecture Walkthrough](backend/BACKEND_WALKTHROUGH.md) - Deep dive into the RAG implementation
-- [Frontend Architecture](frontend/ARCHITECTURE.md) - UI component structure
+- [Frontend-Backend Integration Guide](FRONTEND_BACKEND_INTEGRATION.md) - Complete guide to the full-stack architecture
+- [Deployment Guide](DEPLOYMENT_GUIDE.md) - How to deploy and iterate on RAG performance
 
 ## License
 

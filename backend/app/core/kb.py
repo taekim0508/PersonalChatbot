@@ -16,7 +16,7 @@ class KnowledgeBase:
 
 _KB: Optional[KnowledgeBase] = None
 
-
+# load knowledge base
 def load_kb(
     *,
     chunks_path: str = "index/chunks.json",

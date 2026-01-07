@@ -61,7 +61,11 @@ def chat(req: ChatRequest) -> ChatResponse:
     # This ensures LLM only sees relevant chunks and doesn't explain why others are irrelevant
     retrieved_chunks = [r.chunk for r in results if is_relevant(r.chunk, req.query)]
     allowed_chunk_ids = [c.get("id", "") for c in retrieved_chunks if c.get("id")]
-
+    """
+    for c in retrieved_chunks:
+        if c.get("id"):
+            c.get("id","")
+    """
     system_prompt, user_prompt = build_prompt(req.query, retrieved_chunks)
 
     # REAL ANSWER (replaces placeholder)
