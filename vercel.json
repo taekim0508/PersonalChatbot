@@ -1,0 +1,10 @@
+{
+  "buildCommand": "cd backend && pip install -r requirements.txt",
+  "outputDirectory": "frontend/dist",
+  "functions": {
+    "api/**/*.py": {
+      "runtime": "python3.9"
+    }
+  }
+}
+
