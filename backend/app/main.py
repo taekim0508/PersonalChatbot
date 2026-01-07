@@ -40,8 +40,10 @@ FRONTEND_URL = os.getenv("FRONTEND_URL", "")
 if ENVIRONMENT == "production" and FRONTEND_URL:
     # Production: Only allow the specified frontend URL
     allowed_origins = [FRONTEND_URL]
-    allowed_methods = ["GET", "POST"]  # Restrict to needed methods
-    allowed_headers = ["Content-Type", "Accept"]  # Restrict to needed headers
+    # Include OPTIONS for CORS preflight requests
+    allowed_methods = ["GET", "POST", "OPTIONS"]
+    # Allow headers needed for CORS preflight and actual requests
+    allowed_headers = ["Content-Type", "Accept", "Authorization", "Origin", "X-Requested-With"]
 else:
     # Development: Allow localhost for local development
     allowed_origins = [
@@ -52,6 +54,13 @@ else:
     ]
     allowed_methods = ["*"]  # Allow all methods in dev
     allowed_headers = ["*"]  # Allow all headers in dev
+
+# Store for debug endpoint
+CORS_CONFIG = {
+    "allowed_origins": allowed_origins,
+    "allowed_methods": allowed_methods,
+    "allowed_headers": allowed_headers,
+}
 
 app.add_middleware(
     CORSMiddleware,
@@ -123,3 +132,19 @@ def health():
     not a chat feature. Keeps concerns separated.
     """
     return {"status": "ok"}
+
+@app.get("/debug/cors")
+def debug_cors():
+    """
+    Debug endpoint to check CORS configuration.
+    
+    Purpose: Helps diagnose CORS issues by showing current configuration.
+    Only use this in development or temporarily for debugging.
+    """
+    return {
+        "environment": ENVIRONMENT,
+        "frontend_url": FRONTEND_URL,
+        "allowed_origins": CORS_CONFIG["allowed_origins"],
+        "allowed_methods": CORS_CONFIG["allowed_methods"],
+        "allowed_headers": CORS_CONFIG["allowed_headers"],
+    }
