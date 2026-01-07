@@ -91,6 +91,22 @@ def startup() -> None:
 # - Makes it easy to add more routers later (e.g., /admin, /analytics)
 app.include_router(chat_router)
 
+@app.get("/")
+def root():
+    """
+    Root endpoint.
+    
+    Purpose: Provides basic API information and prevents 404 errors on root path.
+    """
+    return {
+        "message": "Tae Resume Chatbot API",
+        "status": "running",
+        "endpoints": {
+            "health": "/health",
+            "chat": "/chat"
+        }
+    }
+
 @app.get("/health")
 def health():
     """
