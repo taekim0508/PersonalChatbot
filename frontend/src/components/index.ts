@@ -3,10 +3,10 @@
  */
 
 export { ChatContainer } from "./chat/ChatContainer";
-export { ChatInput } from "./ChatInput";
-export { MessageList } from "./MessageList";
-export { MessageBubble } from "./MessageBubble";
-export { TypingIndicator } from "./TypingIndicator";
-export { CitationsList } from "./CitationsList";
-export { EvidenceList } from "./EvidenceList";
-export { ErrorDisplay } from "./ErrorDisplay";
+export { ChatInput } from "./chat/ChatInput";
+export { ChatBubble } from "./chat/ChatBubble";
+export { ChatHeader } from "./chat/ChatHeader";
+export { TypingIndicator } from "./chat/TypingIndicator";
+export { MarkdownRenderer } from "./chat/MarkdownRenderer";
+export { TerminalPanel } from "./terminal/TerminalPanel";
+export { NavLink } from "./NavLink";
