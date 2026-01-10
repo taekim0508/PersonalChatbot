@@ -1,4 +1,5 @@
 import { memo } from 'react';
+import { LoadingIndicator } from './LoadingIndicator';
 
 export type LineType = 'command' | 'output' | 'system' | 'typing';
 
@@ -51,6 +52,15 @@ export const OutputLine = memo(function OutputLine({
     }
     return content;
   };
+
+  // Show loading indicator for typing entries with empty content
+  if (type === 'typing' && !content.trim()) {
+    return (
+      <div className={getLineStyles()}>
+        <LoadingIndicator />
+      </div>
+    );
+  }
 
   return (
     <div className={`leading-relaxed whitespace-pre-wrap break-words ${getLineStyles()}`}>

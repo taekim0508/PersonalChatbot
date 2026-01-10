@@ -16,7 +16,7 @@ const loadingMessages = [
 
 const icons = [Brain, Sparkles, Cpu, Zap];
 
-export const TypingIndicator = () => {
+export const LoadingIndicator = () => {
   const [currentMessage, setCurrentMessage] = useState(0);
   const [currentIcon, setCurrentIcon] = useState(0);
 
@@ -40,25 +40,22 @@ export const TypingIndicator = () => {
   const IconComponent = icons[currentIcon];
 
   return (
-    <div className="flex gap-3 px-4 md:px-6 animate-message-in">
-      <div className="w-8 h-8 rounded-full bg-gradient-to-br from-primary/20 to-accent flex items-center justify-center flex-shrink-0 mt-1 relative">
+    <div className="flex items-center gap-3 terminal-dim">
+      <div className="relative flex items-center justify-center">
         <div className="absolute inset-0 rounded-full bg-primary/20 animate-ping opacity-75" />
-        <IconComponent className="w-4 h-4 text-primary relative z-10 animate-spin-slow" />
+        <IconComponent 
+          className="w-4 h-4 text-primary relative z-10 animate-spin-slow" 
+        />
       </div>
-      <div className="chat-bubble-bot px-4 py-3 rounded-2xl rounded-tl-md border border-border/50">
-        <div className="flex gap-1.5 items-center">
-          <span className="w-2 h-2 bg-primary/60 rounded-full typing-dot" />
-          <span className="w-2 h-2 bg-primary/60 rounded-full typing-dot" />
-          <span className="w-2 h-2 bg-primary/60 rounded-full typing-dot" />
-          <span className="text-xs text-muted-foreground ml-2 transition-opacity duration-500">
-            {loadingMessages[currentMessage]}
-          </span>
-        </div>
-      </div>
+      <span className="text-sm italic transition-opacity duration-500">
+        {loadingMessages[currentMessage]}
+      </span>
+      <span className="flex gap-1">
+        <span className="w-1.5 h-1.5 bg-primary/60 rounded-full typing-dot" />
+        <span className="w-1.5 h-1.5 bg-primary/60 rounded-full typing-dot" />
+        <span className="w-1.5 h-1.5 bg-primary/60 rounded-full typing-dot" />
+      </span>
     </div>
   );
 };
-
-
-
 

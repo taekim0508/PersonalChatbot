@@ -2,6 +2,7 @@ import { useState, useCallback, useEffect, useRef } from 'react';
 import { TerminalHeader } from './TerminalHeader';
 import { OutputLog, LogEntry } from './OutputLog';
 import { InputRow } from './InputRow';
+import { LoadingIndicator } from './LoadingIndicator';
 import { useTypewriter } from '@/hooks/useTypewriter';
 import { useAutoScroll } from '@/hooks/useAutoScroll';
 import { sendMessage } from '@/lib/chatApi';
@@ -131,7 +132,7 @@ export function TerminalPanel() {
 
     // Send to AI
     setIsProcessing(true);
-    const responseId = addEntry('...', 'typing', true);
+    const responseId = addEntry('', 'typing', true);
 
     try {
       let fullResponse = '';
